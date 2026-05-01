@@ -1,0 +1,36 @@
+
+            .tabela{
+              width: 100%;
+              border-collapse: collapse;
+               border-radius: 10px; 
+              box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+              overflow:hidden ;
+            }
+
+            .tabela thead{
+              background-color: #000000;
+              color: #ffffff;
+            }
+
+            .tabela td,th{
+              padding:15px;
+            }
+
+            .tabela td{
+              color: #ff0000;
+              font-size: 14px;
+            }
+
+            tr:nth-child(even){
+              background-color: #ffffff;
+            }
+
+            tr:hover{
+              background-color: #d38282;
+            }
+
+            .tabela tfoot td{
+              background-color: #da0000;
+              color: #ffffff8f ;
+              font-weight: bold;
+            }
